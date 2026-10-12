@@ -1,0 +1,6 @@
+# Build output stays OUT of the repository: the point of the loop is that merging the
+# patch makes the host rebuild. A committed build would hide exactly that.
+build
+__pycache__
+.venv
+venv
